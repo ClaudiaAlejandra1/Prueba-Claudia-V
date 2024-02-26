@@ -25,7 +25,7 @@
         <header>
             <div class="container">
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top " >
+                <nav id="navbar-target" class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top " >
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24"
@@ -35,27 +35,27 @@
                     </div>
             
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto ">
+                        <ul class="navbar-nav ml-auto nav-pills">
                             <li class="nav-item active ">
-                                <a class="nav-link  text-white" href="#">Inicio</a>
+                                <a class="nav-link text-white" href="#Home">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Quienes somos</a>
+                                <a class="nav-link text-white" href="#Quienes_Somos">Quienes somos</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-white" href="#" >Destacados</a>
+                                <a class="nav-link text-white" href="#Destacados" >Destacados</a>
                             </li>
             
                             <li class="nav-item">
-                                <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                                <a class="nav-link text-white" href="#Contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
             <!-- Carousel -->
-            <section>
-                <div id="carouselExample" class="carousel slide">
+            <section >
+                <div id="Home" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="paisaje con fauna nativa">
@@ -81,10 +81,10 @@
         <div id="section_info">    
             <br>
             <!-- Quienes somos -->
-            <section id="Quienes_somos_section">
+            <section  class="Quienes_somos_section">
                 <div class="row">
                     <div class="col-1"></div>
-                    <div class="col-10">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-target" data-bs-root-margin="0px 0px -40%" id="Quienes_Somos" class="col-10">
                         <h2 class="text-center">QUIENES SOMOS</h2>
                     </div>
                     <div class="col-1"></div>
@@ -152,7 +152,7 @@
             </section>
             <br><br>
             <!-- Destacados -->
-            <h2 class="text-center">DESTACADOS</h2>
+            <h2 id="Destacados" class="text-center" >DESTACADOS</h2>
             <br>
             <hr>
             <section class="container">    
@@ -160,7 +160,7 @@
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
                         <div class="card text-bg-info mb-3 card h-100">
-                            <img src="assets/img/card1.jpg" class="card-img-top" alt="paisaje sur">
+                            <img src="assets/img/card1.jpg" class="card-img-top size-imagen" alt="paisaje sur">
                             <div class="card-body">
                                 <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
                                 <h6 class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
@@ -171,7 +171,7 @@
                     </div>
                     <div class="col">
                         <div class="card text-bg-info mb-3 card h-100">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="lago">
+                            <img src="assets/img/card2.jpg" class="card-img-top size-imagen" alt="lago">
                             <div class="card-body">
                                 <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
                                 <h6 class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
@@ -182,7 +182,7 @@
                     </div>
                     <div class="col">
                         <div class="card text-bg-info mb-3 card h-100">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje rocas y agua">
+                            <img src="assets/img/card3.jpg" class="card-img-top size-imagen" alt="paisaje rocas y agua">
                             <div class="card-body">
                                 <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
                                 <h6 class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
@@ -195,7 +195,7 @@
 
                     <div class="col">
                         <div class="card text-bg-info mb-3 card h-100">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque">
+                            <img src="assets/img/card4.jpg" class="card-img-top size-imagen" alt="bosque">
                             <div class="card-body">
                                 <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
                                 <h6 class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
@@ -209,7 +209,7 @@
             </section>
             <br>
             <!-- Formulario    -->
-            <h2 class="text-center">Contacto</h2>
+            <h2 id="Contacto" class="text-center">Contacto</h2>
             <hr>
             <br>
             
@@ -248,11 +248,11 @@
                     </div>
 
                     <div class="row form_inputs" >
-                        <div class="col-5"></div>
-                        <div class="col-2 text-center">
+                        <div class="col-1"></div>
+                        <div class="col-2">
                             <input type="button" class="btn btn-info" value="enviar" style="color: white;">
                         </div>
-                        <div class="col-5"></div>
+                        <div class="col-9"></div>
                     </div>
                 </form>
                 <div class="col-1"></div>
