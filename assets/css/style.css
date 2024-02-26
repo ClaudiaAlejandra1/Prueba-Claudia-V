@@ -16,7 +16,7 @@
     
 }
 
-i{
+div i{
     font-size: 25px;
 }
 
@@ -32,4 +32,11 @@ footer{
 .form_inputs{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.Social_media_icons{
+    padding-top: 10%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
 }
