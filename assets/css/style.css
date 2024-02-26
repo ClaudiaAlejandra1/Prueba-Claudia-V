@@ -1,0 +1,35 @@
+
+#section_info{
+    background-color: black;
+    color: white;
+}
+
+.p_quienes_somos{
+    justify-content: flex-end;
+}
+
+.Icon_bg{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #00bfff;
+    color: white;
+    
+}
+
+i{
+    font-size: 25px;
+}
+
+footer{
+    background-color: #00bfff;
+}
+
+.Contact_form{
+
+    padding-bottom: 1%;
+}
+
+.form_inputs{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
