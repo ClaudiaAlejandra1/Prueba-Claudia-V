@@ -45,3 +45,30 @@ footer{
     vertical-align: middle;
     font-size: 30px;
 }
+
+b{
+    .roboto-regular 
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+p{
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cartas {
+    color: white;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+i{
+    color: white;
+}
+
